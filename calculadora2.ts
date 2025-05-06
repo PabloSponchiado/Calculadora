@@ -1,7 +1,6 @@
 
 type Operacao = 'soma' | 'subtracao' | 'multiplicacao' | 'divisao';
 
-
 function calcular(operacao: Operacao, a: number, b: number): number {
     switch (operacao) {
         case 'soma':
